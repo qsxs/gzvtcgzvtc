@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:src="@drawable/school" />
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_select"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#e1e1e1"
+                android:drawableRight="@drawable/arrow_down_icon"
+                android:padding="8dp"
+                android:text="学院简介"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="125dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/school3" />
+
+            <TextView
+                android:id="@+id/tv_body"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\t广州工程技术职业学院是经广东省人民政府批准、国家教育部备案的广州市属普通高校，创办于1964年。
+　　\n\t学院以先进的教育理念、独特的办学思路、优秀的师资队伍、优雅的校园环境、鲜明的高职特色，致力于培养具有现代竞争意识和综合职业能力、素质全面，能适应二十一世纪经济发展需要的高素质的技术技能型人才。作为一所有着五十多年历史的公办高校，近年来，在不断的改革、超越和发展中打下了稳固的基础，积累了丰富的经验，逐步形成了知识、品格、才艺、技能四元并重的办学风格。以独特的思路和新颖的做法应对竞争，谋求突破，实现了跨越式发展，形成了 “万人学校，亿元资产 ” 的强劲格局，取得了良好的经济效益和社会效益。
+　　\n\t学院现设有机电工程系、信息工程系、石化工程系、财经与管理系、外语与商贸系、餐饮与旅游管理学院、艺术与设计学院、继续教育学院等8个系（院），在校高职生人数近8000人。外加三所附属中职学校和一个培训中心，组建了以高职教育为主体、以中职教育为两翼、以技能培训为拓展平台，在校学历生规模超1.6万人，年培训超3万人次的职业教育集团。
+　　\n\t学院办学紧贴广州及珠江三角洲地区经济社会发展的需要，实施专业错位发展和人才培养模式创新，培养“有教养、有本领”的高素质技术技能型人才。毕业生总体就业率连续六年位居全省本专科院校前三名，2013、2014、2015年均达100%。毕业生以良好的面貌、全面的素质和过硬的能力广受用人单位好评，用人单位的满意率达100%，其中优良率达96.4% 。"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#e1e1e1"
+                android:padding="8dp"
+                android:text="学院新闻"
+                android:textSize="24sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:padding="4dp"
+                android:singleLine="true"
+                android:text="我院老师作品《我的匠心》入围教育部“当代教师风采”微视频"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:padding="4dp"
+                android:singleLine="true"
+                android:text="我院创业团队闯入第六届“赢在广州”大学生启航赛决赛"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:padding="4dp"
+                android:singleLine="true"
+                android:text="从化校区举行2017年从化区突发公共卫生事件应急演练"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:padding="4dp"
+                android:singleLine="true"
+                android:text="罗三桂副院长率队看望顶岗实习学生"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:padding="4dp"
+                android:singleLine="true"
+                android:text="更多内容>>>"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</LinearLayout>

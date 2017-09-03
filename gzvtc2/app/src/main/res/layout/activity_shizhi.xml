@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.gzvtc.xinxixi.ChengguoActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/tool_bar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary" />
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="140dp"
+                    android:layout_height="200dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/teacher_shen" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="申海霞\n\n信息工程系主任，计算机应用专业副教授。\n
+广东省中专系列高级职称专业技术资格评审委员会委员、广州大学教 师高级专业技术资格评审委员会委员。"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="教育背景：
+\n1979年9月－1983年6月本科青海师范学院?数学专业；
+\n2000年2月－2002年2月研究生清华大学继续教育学院?计算机应用专业；
+\n工作经历：
+\n1983年8月－1995年9月在青海省西宁市第七中学任教；\n
+1995年9月－2003年2月在青海大学财经学院任教；\n
+2003年2月－至今广州工程技术职业学院任教。\n
+主讲课程：\n
+《数据结构》、《Visual Basic?程序设计》、《Access数据库程序设计》、《C?语言程序设计》、《计算方法》、《办公自动化》、《计算机基础》等。\n
+获得的主要荣誉：\n
+2012年度：广东省“南粤优秀教师\n
+2008年度：广州市“三八红旗手”\n
+2008年度：广州市“总工会系统优秀共产党员”\n
+2005年度：广州市“优秀教师”\n
+2011年度：学院“优秀共产党员”\n
+2010年度：学院“评建工作突出贡献先进个人”\n
+2010年度：学院“就业工作先进”\n
+2008年度：学院“优秀共产党员”\n
+2006年度：学院“优秀教科研奖”\n
+2005年度：学院“十佳人员---最佳教学效果奖”\n
+2004年度：学院“优秀教学奖”、\n
+2013年度：指导学生获“全国职业院校技能大赛高职组广东选拔赛”三等奖\n
+2013年度：指导学生获“广州市属院校工业机器人应用技术技能比赛”一等奖\n
+2012年度：指导学生获“全国职业院校技能大赛高职组广东选拔赛“二等奖\n
+2012年度：指导学生获“全国第一届探索者杯机器人创新大赛”二等奖\n
+2010年度：指导学生获“广州市电子设计与制作专业技能大赛”二等奖\n
+研究成果：\n
+主持或参与26项科研课题，其中国家级课题1项、省级课题2项、市级课题3项。专利一项，主持或参与精品课程5门。\n
+已发表撰写论文\n
+1、《浅析VisualFoxpro6.0在高校招生信息管理系统开发中的应用》\n
+2、《基于图像识别技术的发动机机械故障诊断系统设计》、\n
+3、《PowerBuilder?浮点数的存储范围探讨》、\n
+4、《高等职业教育开设机器人专业的必要性研究》\n
+5、《基于“工作工程系统化”情景教学法在《数控综合实训》中的应用》\n
+6、《基于可视化的C语言运行平台的设计》\n
+7、《一种基于并行理论工程的教学方法-并行教学法探讨》\n
+8、《企业管理与会计电算化》、\n
+9、《多媒体教学网络在实际应用中的研究》、\n
+10、《应加强国民的计算机教育》、\n
+11、《论大中专院校计算机教育改革》、\n
+12、《WORD文档的编排及应用技巧》、\n
+13、《略论办公自动化技术》、\n
+14、《对我国会计电算化发展方向的思考》、\n
+15、《加快我省会计电算化进程》、\n
+16、《会计电算化的应用》等等。"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</LinearLayout>
